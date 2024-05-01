@@ -20,4 +20,9 @@ class FrontEndController extends Controller
     {
         return view('login.validateuser');
     }
+
+    public function createuser()
+    {
+        return view('login.user_creation');
+    }
 }
